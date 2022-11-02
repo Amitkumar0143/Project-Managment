@@ -1,0 +1,118 @@
+.dashboard{
+    .icon-box-success {
+        width: 40px;
+        height: 40px;
+        background: #01a949;
+        border-radius: 7px;
+    }
+    .icon-box-danger {
+        width: 40px;
+        height: 40px;
+        background: #fc424a;
+        border-radius: 7px;
+    }
+    .icon svg {
+        margin-left: 9px;
+        color: #fff;
+    }
+    .card {
+        padding: 1.75rem;
+        background: #191c24;
+        border-radius: 8px;
+        margin: 9px 0;
+        overflow-x: auto;
+        h3 {
+            font-size: 1.9rem;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+    .preview-list {
+        .preview-icon {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            display: -webkit-flex;
+            display: flex;
+            margin: 7px 13px 0 0;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+        }
+        .flex-grow{
+            flex-grow: 1;
+        }
+         .preview-item {
+            display: -webkit-flex; 
+            display: flex; 
+            -webkit-flex-direction: row; 
+            flex-direction: row; 
+            -webkit-align-items: flex-start; 
+            align-items: flex-start; 
+            padding: 1rem 0rem; 
+            font-size: 0.875rem;
+            h6.preview-subject {
+                color: #fff;
+            }
+         svg{
+             color: #fff;
+         }
+        }
+        
+    } 
+    .stretch-card{
+        h6{
+            color: #fff;
+        }
+        .transfer {
+            background: #0e1118;
+        }
+    }
+    .card-title{
+        color: #fff;
+    }
+    .revenue{
+        svg{
+            font-size: 3.75rem;
+        }
+    }
+    .ant-table {
+        background: none;
+        color: #6c757d;
+        th.ant-table-cell {
+            color: #fff;
+            background: #191c24;
+        }
+        span.ant-badge {
+            border: 1px solid;
+            padding: 5px 5px;
+            font-weight: 700;
+            border-radius: 5px;
+        }
+        
+        
+    }
+    .ant-carousel .slick-dots {
+        right: 0 !important;
+        top: -28px !important;
+        margin-right: unset!important;
+        left: unset;
+    }
+    
+    
+}
+
+
+.text-primary {
+    color: #008FFB !important;
+  }
+  .text-danger {
+    color: #f3051c !important;
+  }
+   .text-success {
+    color: #049b10 !important;
+  }
+   .text-warning {
+    color: #d6af01 !important;
+  }

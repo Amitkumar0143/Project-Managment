@@ -1,0 +1,37 @@
+.project {
+  margin: 18px 0;
+}
+
+.project .card {
+  padding: 0.75rem;
+  margin: 14px 0;
+}
+
+.project .info .ant-progress-bg {
+  background-color: #fe89cb !important;
+}
+
+.project .warning .ant-progress-bg {
+  background-color: #f0bc11 !important;
+}
+
+.project .text-muted {
+  color: #959595 !important;
+}
+
+.project .avatar-group {
+  padding-left: 12px;
+}
+
+.project .avatar-group img.avatar-sm {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.project .avatar-group .avatar-group-item {
+  margin: 0 0 10px -12px;
+  display: inline-block;
+  border: 2px solid var(--ct-card-bg);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=project.css.map */
